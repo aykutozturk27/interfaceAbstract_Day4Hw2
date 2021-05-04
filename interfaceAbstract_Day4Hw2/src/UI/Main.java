@@ -16,7 +16,7 @@ public class Main {
 		customer.firstName = "Aykut";
 		customer.lastName = "Öztürk";
 		customer.dateOfBirth = LocalDate.of(1992, 4, 27);
-		customer.nationalityId = "30034673208";
+		customer.nationalityId = "1234567891";
 		customerManager.save(customer);
 	}
 
